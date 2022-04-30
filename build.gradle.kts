@@ -23,7 +23,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	runtimeOnly("com.h2database:h2")
-
+	implementation("com.github.javafaker:javafaker.0.12")
 }
 
 tasks.withType<KotlinCompile> {

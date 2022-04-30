@@ -1,6 +1,6 @@
 package keno.ToyKotlin.chat.controller
 
-import keno.ToyKotlin.demo.MessageService
+import keno.ToyKotlin.chat.service.MessageService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 

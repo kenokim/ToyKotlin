@@ -1,6 +1,6 @@
 package keno.ToyKotlin.chat.controller
 
-import keno.ToyKotlin.demo.MessageService
+import keno.ToyKotlin.chat.service.MessageService
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.ui.set

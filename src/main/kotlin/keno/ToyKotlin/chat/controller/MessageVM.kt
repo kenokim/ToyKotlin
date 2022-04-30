@@ -1,3 +1,10 @@
 package keno.ToyKotlin.chat.controller
 
-data class MessageVM(val id: Long)
+import java.time.Instant
+
+data class MessageVM(
+    val content: String,
+    val user: UserVM = anonyUserVM(),
+    val sent: Instant,
+    val id: String? = null
+)
