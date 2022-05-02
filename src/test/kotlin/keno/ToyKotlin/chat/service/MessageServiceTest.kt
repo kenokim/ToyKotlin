@@ -17,7 +17,7 @@ class MessageServiceTest (
     fun simpleMessageTest() {
         var messages = messageService.latest()
         messages.forEach {
-                it -> println(it)
+                println(it)
         }
     }
 }

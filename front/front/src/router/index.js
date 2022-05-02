@@ -2,11 +2,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 import WelcomePage from '@/views/welcome'
 import AdminPage from '@/views/login/AdminPage'
 import LoginTest from '@/views/login/main'
-import ChatPage from '@/views/samplechats'
+import SampleChats from '@/views/samplechats'
 const routes = [
 
     {
-        path: '/',
+        path: '/welcome',
         component: WelcomePage,
     },
 
@@ -25,9 +25,11 @@ const routes = [
     },
 
     {
-        path: '/chats/1',
-        components: ChatPage
+        path: '/sample',
+        components: SampleChats,
+
     },
+
 ];
 
 const router = createRouter({

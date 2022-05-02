@@ -1,25 +1,22 @@
 <template>
 <div>
   <span>Hello Sample Messages</span>
-  <chatVM :chatVM="sampleChatVM" />
 </div>
 </template>
 
 <script>
-import axios from "axios"
-import chatVM from "@/components/ChatVM"
+//import axios from "axios"
+//import chatVM from "@/components/ChatVM"
 
-export default {
-  components: {
-    chatVM,
-  },
+//export default {
+  
 
-  data() {
+  /*data() {
     return {
       chatVMList: null,
       sampleChatVM: {
         content: "Hello keno",
-        URL: "..."
+        url: "...",
       }
     }
   },
@@ -30,7 +27,15 @@ export default {
       .then((res) => {
         this.chatVMList = res.data
       })
+      .catch({
+
+      })
     },
-  }
-}
+  },
+  
+  mounted() {
+    //this.chatMessages()
+    console.log("Hello chats!")
+  }*/
+//}
 </script>
