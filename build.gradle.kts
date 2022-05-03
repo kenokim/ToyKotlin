@@ -5,7 +5,9 @@ plugins {
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 	kotlin("jvm") version "1.5.32"
 	kotlin("plugin.spring") version "1.5.32"
+	kotlin("plugin.jpa") version "1.3.72"
 }
+
 
 group = "keno"
 version = "0.0.1-SNAPSHOT"
@@ -23,7 +25,6 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	runtimeOnly("com.h2database:h2")
-	implementation("com.github.javafaker:javafaker.0.12")
 }
 
 tasks.withType<KotlinCompile> {
